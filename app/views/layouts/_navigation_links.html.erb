@@ -1,0 +1,5 @@
+<%# add navigation links to this file %>
+<li><%= link_to 'About', page_path('about') %></li>
+    <li class="<%= 'active' if current_page?(root_path) %>">
+<li class="<%= 'active' if current_page?(about_path) %>">
+<li class="<%= 'active' if current_page?(contact_path) %>">
