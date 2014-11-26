@@ -15,3 +15,7 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
+//= require d3
+//= require angular
+//= require angular-animate
+//= require angular-resource
